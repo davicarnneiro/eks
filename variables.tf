@@ -10,7 +10,7 @@ variable "region" {
 
 variable "kubernetes_version" {
   description = "Define a versão do cluster"
-  default     = "1.27"
+  default     = "1.28"
 }
 
 variable "desired_size" {
@@ -25,5 +25,5 @@ variable "max_size" {
 
 variable "min_size" {
   description = "Define a quantidade minima de nodes"
-  default     = 3
+  default     = 1
 }
