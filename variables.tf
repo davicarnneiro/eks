@@ -10,7 +10,7 @@ variable "region" {
 
 variable "kubernetes_version" {
   description = "Define a versão do cluster"
-  default     = "1.28"
+  default     = "1.29"
 }
 
 variable "desired_size" {
