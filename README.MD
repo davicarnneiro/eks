@@ -22,7 +22,7 @@
 │       ├── node-group.tf
 │       └── variables.tf
 ├── modules.tf
-├── provider.tf
+├── main.tf
 └── variables.tf
 ```
 

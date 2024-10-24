@@ -3,7 +3,7 @@ variable "cluster_name" {
   default     = "devops-eks"
 }
 
-variable "region" {
+variable "aws_region" {
   description = "Define a região que seu cluster sera criado"
   default     = "us-west-1"
 }

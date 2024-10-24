@@ -2,7 +2,7 @@ module "network" {
   source = "./modules/network"
 
   cluster_name = var.cluster_name
-  region       = var.region
+  region       = var.aws_region
 }
 
 module "master" {
